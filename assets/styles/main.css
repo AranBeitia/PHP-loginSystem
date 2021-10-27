@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: grey;
+}
+
+header {
+	background-color: #ffffff;
+}
+
+.header__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__nav {
+	display: flex;
+}
+
+.logo {
+	height: 50px;
+}
+
+main {
+	background-color: aqua;
+}
+
+footer {
+	background-color: darkkhaki;
+}
