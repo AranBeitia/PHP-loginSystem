@@ -14,7 +14,7 @@
 				<a href="#">
 					<img src="assets/img/logo.png" alt="logo" class="logo">
 				</a>
-				<ul>
+				<ul class="header__list">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="#">Portfolio</a></li>
 					<li><a href="#">About me</a></li>
