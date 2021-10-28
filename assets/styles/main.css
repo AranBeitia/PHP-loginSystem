@@ -7,6 +7,12 @@
 
 body {
 	background-color: rgb(228, 228, 228);
+	color: darkslategray;
+}
+
+a {
+	text-decoration: none;
+	color: darkslategray;
 }
 
 header {
@@ -24,15 +30,49 @@ header {
 
 .header__list {
 	display: inline-flex;
+	align-items: center;
 	list-style: none;
+}
+
+.header__list * {
+	padding-right: 1rem;
+	text-transform: uppercase;
 }
 
 .logo {
 	height: 50px;
 }
 
-main {
-	background-color: aqua;
+.header__form-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.main__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 60rem;
+	width: 100%;
+	margin: 1rem;
+	padding: 1rem;
+	background-color: #fff;
+}
+
+.form__wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.form__wrapper > * {
+	margin: 0.5rem 0;
 }
 
 footer {

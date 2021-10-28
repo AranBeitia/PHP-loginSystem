@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,12 +20,12 @@
 				</a>
 				<ul class="header__list">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="#">Portfolio</a></li>
+					<li><a href="portfolio.php">Portfolio</a></li>
 					<li><a href="#">About me</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
 			</div>
-			<div>
+			<div class="header__form-wrapper">
 				<form action="includes/login.inc.php" method="post">
 					<input type="text" name="mailuid" placeholder="Username/E-mail...">
 					<input type="password" name="pwd" placeholder="Password...">
