@@ -1,4 +1,4 @@
 <?php
-require_once('sessionControl.php');
+require_once('validate.php');
 authUser();
 
