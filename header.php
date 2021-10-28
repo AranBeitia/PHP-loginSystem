@@ -13,10 +13,10 @@ require_once('./modules/validate.php');
 				<img src="assets/img/logo.png" alt="logo" class="logo">
 			</a>
 			<ul class="header__list">
-				<li><a href="home.php">Home</a></li>
-				<li><a href="portfolio.php">Portfolio</a></li>
-				<li><a href="#">About me</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="home.php" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</a></li>
+				<li><a href="portfolio.php" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Portfolio</a></li>
+				<li><a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About me</a></li>
+				<li><a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a></li>
 			</ul>
 		</div>
 		<div class="header__form-wrapper">

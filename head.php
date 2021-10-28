@@ -7,5 +7,7 @@
 	<title>Login</title>
 	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/styles/main.css" />
+	<script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+	<script src="./assets/js/varChar.js" defer></script>
 </head>
 <body>
