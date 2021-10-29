@@ -47,3 +47,30 @@ function destroySession () {
 	session_destroy();
 	header('Location: ../index.php?logout=true');
 }
+
+function registerUser () {
+	if(isset($_POST['register'])) {
+		//getting the data
+		$username = $_POST['username'];
+		$password = $_POST['password'];
+		$mail = $_POST['email'];
+		$country = $_POST['country'];
+
+		if($username!= '' && $password != '' && $mail != '' && $country != ''){
+			//SQL connection
+			$sql = "INSERT INTO users(username, password, email, country) VALUES('$username', '$password', '$mail',  '$country')";
+
+			//making connection
+			include_once('./db.php');
+
+			//making a query
+			$qry = mysqli_query($connection, $sql) or die('Database insertion error');
+
+			if($qry) {
+				header('Location: ../index.php');
+			}
+		} else {
+			echo "Please fill all the fields";
+		}
+	}
+}
